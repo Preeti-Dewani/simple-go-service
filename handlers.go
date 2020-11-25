@@ -1,7 +1,6 @@
 package main
 
 import (
-	"io"
 	"net/http"
 )
 
@@ -12,6 +11,5 @@ func BooksHandler(res http.ResponseWriter, req *http.Request){
                             3. Storms`)
         res.WriteHeader(200)
         res.Write(response)
-	io.WriteString(res, `success`)
 }
 
