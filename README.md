@@ -1,5 +1,5 @@
 # Simple-go-service
-A small service implemented via go
+A small service implemented via go to get list of books
 
 ## Usage:
     go run main.go handlers.go 
