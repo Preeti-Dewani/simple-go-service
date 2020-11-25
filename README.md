@@ -1,8 +1,8 @@
 # Simple-go-service
-A small service implemented via go
+A small service implemented via go to get list of books
 
 ## Usage:
-    go run main.go
+    go run main.go handlers.go 
   
 ## Move to browser:
     http://localhost:8080/service/books
@@ -29,3 +29,5 @@ A small service implemented via go
         * Connection #0 to host localhost left intact
                         3. Storms* Closing connection 0
 
+## To run test Case:
+    go test
